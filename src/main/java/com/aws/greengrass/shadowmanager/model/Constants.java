@@ -49,7 +49,7 @@ public final class Constants {
     public static final String ERROR_MESSAGE_FIELD_NAME = "message";
     public static final int MAX_THING_NAME_LENGTH = 128;
     public static final int MAX_SHADOW_NAME_LENGTH = 64;
-    public static final String SHADOW_PATTERN = "[a-zA-Z0-9:_-]+";
+    public static final String SHADOW_PATTERN = "\\$?[a-zA-Z0-9:_-]+";
     public static final int MIN_PAGE_SIZE = 1;
     public static final int MAX_PAGE_SIZE = 100;
     public static final int DEFAULT_PAGE_SIZE = 25;
